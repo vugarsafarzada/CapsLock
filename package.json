@@ -1,0 +1,29 @@
+{
+  "name": "CapsLockWeb",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "VUGAR",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bootstrap-icons": "^1.4.0",
+    "chrome-launcher": "^0.13.4",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "express-search": "^0.0.81",
+    "formidable": "^1.2.2",
+    "hbs": "^4.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.2",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "description": ""
+}

@@ -1,0 +1,124 @@
+body {
+    background: rgb(95, 95, 95);
+    font-family: Tahoma;
+    background-image: url("/css/bgImage.jpg");
+    background-size: 1000px;
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+}
+
+.post {
+    border: 1px solid black;
+    border-radius: 5%;
+    width: 19.3rem;
+}
+
+.post:hover {
+    box-shadow: 0px 0px 15px 5px #F9F301;
+    transition-duration: 0.5s;
+    opacity: 90%
+}
+
+.logo {
+    width: 90px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+.border-yellow {
+    border: 3px solid #F9F301;
+}
+
+.categories {
+    padding: 4px;
+    margin-left: -22px;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-weight: 200;
+    border-bottom: 3px solid #f9f50179;
+    border-bottom-right-radius: 15%;
+}
+
+.categories:hover {
+    background-color: rgba(0, 0, 0, 0.374);
+}
+
+li>a {
+    color: #f9f501ac;
+    padding-left: 10px;
+}
+
+li>a:hover {
+    color: #F9F301
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+@media screen and (max-width:1400px) {
+    .post {
+        width: 30.5%;
+        height: auto;
+    }
+    *{
+        font-size: 100%;
+    }
+
+    .rsp{
+        font-size: 100%;
+    }
+}
+@media screen and (max-width:1200px) {
+    .post {
+        width: 30%;
+        height: auto;
+    }
+    *{
+        font-size: 95%;
+    }
+    .rsp{
+        font-size: 95%;
+    }
+}
+@media screen and (max-width:1000px) {
+    .post {
+        width:29%;
+        height: auto;
+    }
+    *{
+        font-size: 90%;
+    }
+}
+@media screen and (max-width:800px) {
+    .post {
+        width: 28%;
+        height: auto;
+    }
+    *{
+        font-size: 85%;
+    }
+    .rsp{
+        font-size: 90%;
+    }
+}
+@media screen and (max-width:500px) {
+    .post {
+        width: 27%;
+        height: auto;
+    }
+    *{
+        font-size: 85%;
+    }
+    .rsp{
+        font-size: 90%;
+    }
+}

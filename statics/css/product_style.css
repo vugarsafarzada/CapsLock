@@ -1,0 +1,62 @@
+body{
+    background: rgb(95, 95, 95);
+    font-family: Tahoma;
+    background-image: url("/css/bgImage.jpg");
+    background-size: 1000px;
+}
+
+.productimg{
+    width: 670px;
+    height: auto;
+    margin-left: 10%;
+    box-shadow: 3px 3px 10px black;
+}
+
+.productdesc{
+    padding: 30px;
+    color: white;
+    margin-left: 11%;
+    box-shadow: 3px 3px 15px black;
+}
+
+.logo{
+    width: 90px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+.shadow-yellow{
+    box-shadow: 0px 0px 20px 1px black;
+}
+
+.shadow-yellow:hover{
+    transition: ease-out;
+    transition-delay: 1s;
+    transition-duration: 5s;
+    box-shadow: 0px 0px 25px 8px #F9F301;
+}
+
+
+.productname{
+    background: rgb(220, 220, 220);
+    color: white;
+    box-shadow: 3px 3px 15px black;
+}
+
+.productname:hover{
+    transition: ease-out;
+    transition-duration: 2s;
+    transition-delay: 1s;
+    color:#F9F301;
+    text-shadow: 0px 0px 25px #F9F301;
+    border: 3px solid #F9F301
+}
+
+.border-grey{
+    border: 3px solid gainsboro
+}
+
+.border-lime{
+    border: 3px solid lime;
+}
